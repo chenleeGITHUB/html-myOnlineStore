@@ -12,6 +12,16 @@ header li a {
     text-decoration: indianred 2px;
 }
 
+a:visited {
+    color: #a5c300;
+  }
+  
+
+a:hover {
+    text-decoration: none;
+    background: #cdfeaa;
+ }
+  
 
 
     header img {
@@ -193,6 +203,35 @@ header li a {
                 margin-top: 5px; 
             }
            
+        }
+
+        #promos{
+            margin: 0;
+            padding: 5px;
+            background-color: lightgray;
+          }
+        #promos h2{
+            text-align: center;
+            font-style: oblique;
+        }
+        #promos h3{
+            margin: 20px;
+        }
+
+        #contact{
+            margin: 0;
+            padding: 5px;
+            background-color: lightgray;
+          }
+        #contact h2{
+            text-align: center;
+            font-style: oblique;
+            padding: auto;
+        }
+        #contact
+         h3{
+            margin: 20px;
+            padding:auto;
         }
 
         footer {
