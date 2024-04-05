@@ -1,45 +1,148 @@
-@media only screen and (max-width: 768px) {
-    /* Adjust styles for smaller screens */
-    ul li {
-        display: block;
-        text-align: center;
-    }
+
+header * {
+    display: inline;
 }
 
-@media only screen and (max-width: 480px) {
-    /* Further adjustments for even smaller screens */
-    h1 {
-        font-size: 24px;
-    }
-    ul li a {
-        padding: 10px;
-    }
-    article {
-        margin: 10px;
-        padding: 10px;
-    }
+header li {
+    margin: 20px;
 }
 
-header h1{
-    color: rgb(96, 96, 207);
-    text-shadow: 1px 1px 0 ;
-    margin-left: 120px;
-    margin-bottom: .25em;
-    font-size: 30px;
+header li a {
+    color: black;
+    text-decoration: indianred 2px;
 }
-header h2{
-    color: rgb(79, 67, 81);
-    font-style: italic;
-    margin-left: 120px;
-    font-size: 20px;
-}
-  
+
+
 
     header img {
-       float:left;
-        width: 150px;
-        height: 150px;
-        background: #555;
+    height: 80px;
+    margin-left: 40px;
       }
+
+      header {
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 25px 0 black;
+    }
       
+    body {
+        height: 125vh;
+        background: radial-gradient(#e66465, #9198e5);
+        background: cover;
+        font-family: sans-serif;
+        margin-top: 80px;
+        padding: 30px;
+    }
+    nav ul {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+    }
+
+    #about{
+        margin: 0;
+        padding: 5px;
+        background-color: lightgray;
+      }
+    #about h2{
+        text-align: center;
+        font-style: oblique;
+    }
+    #about h3{
+        padding-left: 10px;
+    }
+
+    .journey{
+        margin: 10px;
+        padding: 10px;
+        background: white;
+    }
+
+    .mission{
+        margin: 10px;
+        padding: 10px;
+        background: white;
+    }
+    .values{
+        margin: 10px;
+        padding: 10px;
+        background: white;
+    }
+    
+    #products{
+        margin: 0;
+        padding: 5px;
+        background-color: lightgray;
+      }
+    #products h2{
+        text-align: center;
+        font-style: oblique;
+    }
+
+    .smartwatch{
+        margin: 10px;
+        padding: 10px;
+        background: white;
+    }
+
+    .headphone{
+        margin: 10px;
+        padding: 10px;
+        background: white;
+    }
+    .speakers{
+        margin: 10px;
+        padding: 10px;
+        background: white;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+         }
+      
+         @media only screen and (max-width: 600px) {
+            /* Adjustments for smaller screens */
+            body {
+                font-size: 14px;
+            }
+            header img {
+                width: 150px;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+            nav li {
+                margin-bottom: 10px;
+            }
+            article {
+                padding: 20px;
+            }
+            article h2 {
+                font-size: 24px;
+            }
+            article h3 {
+                font-size: 18px;
+            }
+            article p {
+                font-size: 14px;
+            }
+            article figure {
+                margin-bottom: 20px;
+            }
+            footer p {
+                font-size: 12px;
+            }
+        }
     
