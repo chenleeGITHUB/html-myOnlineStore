@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    ul li {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Further adjustments for even smaller screens */
+    h1 {
+        font-size: 24px;
+    }
+    ul li a {
+        padding: 10px;
+    }
+    article {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+header h1{
+    color: rgb(96, 96, 207);
+    text-shadow: 1px 1px 0 ;
+    margin-left: 120px;
+    margin-bottom: .25em;
+    font-size: 30px;
+}
+header h2{
+    color: rgb(79, 67, 81);
+    font-style: italic;
+    margin-left: 120px;
+    font-size: 20px;
+}
+  
+
+    header img {
+       float:left;
+        width: 150px;
+        height: 150px;
+        background: #555;
+      }
+      
+    
